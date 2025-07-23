@@ -45,9 +45,9 @@ body{
 }
 #maindiv{
     height: 450px;
-    width: 50%;
-    margin-top: 150px;
-    margin-left: 23%;
+    width: 55%;
+    margin-top: 70px;
+    margin-left: 22%;
     display: flex;
     box-shadow: 1px 1px 10px 7px;
     backdrop-filter: blur(30px);

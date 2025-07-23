@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    /* background-image: linear-gradient(45deg,rgb(146, 252, 146),rgb(123, 123, 247)); */
+    background-image: url('./media/b1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#navbar{
+    height: 60px;
+    background-color: rgb(156, 201, 240);
+    top: 0px;
+    display: flex;
+    position: fixed;
+    width: 100vw;
+}
+#brandlogo{
+    display:flex ;
+    justify-content: center;
+    background-size: cover;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#brandname{
+    display:flex ;
+    justify-content: center;
+    padding-left: 50px;
+    align-items: center;
+    font-size: x-large
+}
+#navcontent{
+    display: flex;
+}
+.navc{
+    padding-left: 100px;
+    display:flex ;
+    align-items: center;
+}
+.navc a{
+    color:rgb(150, 53, 230);
+    font-size:large;
+    text-decoration: none;
+    font-size:large;
+}
+.navc a:hover{
+    color: yellow;
+}
+#maindiv{
+  width: 55%;
+  /* background-color: bisque; */
+  height: fit-content;
+  padding: 25px;
+  display: flex;
+  box-shadow: 0px 0px 15px 2px white;
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+
+}
+
+#imgdiv{
+    height: 100%;
+    width: 40%;
+    background-image: url('./media/regimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#formdiv{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* background-color: brown; */
+    align-items: center;
+    height: 100%;
+}
+#regform{
+    width: 100%;
+/* background-color: azure; */
+display: flex;
+flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    align-items: center;
+}
+
+.inpitems{
+    padding: 7px;
+    width: 80%;
+}
+
+
